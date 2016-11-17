@@ -1,0 +1,4 @@
+<h2>My Heroes</h2>
+<my-dashboard>Loading my-dashboard...</my-dashboard>
+<my-herolist [heroList]="heroes" [selectedHero]="selectedHero" (notify)='onSelect($event)'>...</my-herolist>
+<hero-details [hero]="selectedHero"></hero-details>
